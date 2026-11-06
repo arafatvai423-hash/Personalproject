@@ -1,0 +1,6 @@
+{
+  "name": "Private Connect",
+  "description": "Production-ready, real-time private messaging platform with 1-on-1 and group chats, WebRTC voice/video calling, voice notes, media sharing, and member management.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

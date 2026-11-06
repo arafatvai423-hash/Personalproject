@@ -1,0 +1,252 @@
+{
+  "users": [
+    {
+      "id": "u_admin_001",
+      "email": "arafat@privateconnect.internal",
+      "passwordHash": "admin123",
+      "displayName": "Arafat Sani",
+      "username": "arafat_sani",
+      "avatarUrl": "https://api.dicebear.com/7.x/avataaars/svg?seed=Arafat",
+      "bio": "Lead Administrator at Private Connect. Security & System Architect.",
+      "role": "founder",
+      "status": "approved",
+      "isOnline": true,
+      "lastSeen": "2026-11-06T15:47:12.113Z",
+      "createdAt": "2026-11-05T16:15:10.948Z",
+      "founderTitle": "Founder & Lead Developer",
+      "responsibility": "Product Development, Technical Architecture and Platform Management.",
+      "coverUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80",
+      "contactLinks": {
+        "github": "https://github.com",
+        "website": "https://privateconnect.internal",
+        "email": "arafat@privateconnect.internal"
+      }
+    },
+    {
+      "id": "u_sarah_002",
+      "email": "sarah.chen@privateconnect.internal",
+      "passwordHash": "member123",
+      "displayName": "Sarah Chen",
+      "username": "sarah_c",
+      "avatarUrl": "https://api.dicebear.com/7.x/avataaars/svg?seed=SarahChen",
+      "bio": "Design lead & UI specialist. Passionate about real-time collaboration.",
+      "role": "member",
+      "status": "approved",
+      "isOnline": true,
+      "lastSeen": "2026-11-06T15:46:51.786Z",
+      "createdAt": "2026-11-05T16:15:10.948Z"
+    },
+    {
+      "id": "u_marcus_003",
+      "email": "marcus.vance@privateconnect.internal",
+      "passwordHash": "member123",
+      "displayName": "Marcus Vance",
+      "username": "marcus_v",
+      "avatarUrl": "https://api.dicebear.com/7.x/avataaars/svg?seed=MarcusVance",
+      "bio": "Backend & WebRTC engineer. Audio/video streaming focus.",
+      "role": "member",
+      "status": "approved",
+      "isOnline": false,
+      "lastSeen": "2026-11-05T17:10:10.948Z",
+      "createdAt": "2026-11-05T16:15:10.948Z"
+    },
+    {
+      "id": "u_elena_004",
+      "email": "elena.rostova@privateconnect.internal",
+      "passwordHash": "member123",
+      "displayName": "Elena Rostova",
+      "username": "elena_r",
+      "avatarUrl": "https://api.dicebear.com/7.x/avataaars/svg?seed=ElenaRostova",
+      "bio": "Product manager & security researcher. Private by default.",
+      "role": "member",
+      "status": "approved",
+      "isOnline": false,
+      "lastSeen": "2026-11-05T16:55:10.948Z",
+      "createdAt": "2026-11-05T16:15:10.948Z"
+    },
+    {
+      "id": "u_0318f4ba",
+      "email": "pending_applicant@test.com",
+      "passwordHash": "password123",
+      "displayName": "Applicant Doe",
+      "username": "applicant_doe",
+      "avatarUrl": "https://api.dicebear.com/7.x/avataaars/svg?seed=applicant_doe",
+      "coverUrl": "",
+      "bio": "Member of Private Connect",
+      "role": "member",
+      "status": "pending",
+      "isOnline": false,
+      "lastSeen": "2026-11-06T15:47:21.327Z",
+      "createdAt": "2026-11-06T15:47:21.327Z"
+    },
+    {
+      "id": "u_0c2bbfcc",
+      "email": "hacker@test.com",
+      "passwordHash": "password123",
+      "displayName": "Hacker",
+      "username": "hacker",
+      "avatarUrl": "https://api.dicebear.com/7.x/avataaars/svg?seed=hacker",
+      "coverUrl": "",
+      "bio": "Member of Private Connect",
+      "role": "member",
+      "status": "pending",
+      "isOnline": false,
+      "lastSeen": "2026-11-06T15:47:28.763Z",
+      "createdAt": "2026-11-06T15:47:28.763Z"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "c_general_grp",
+      "isGroup": true,
+      "name": "Private Connect Core Team",
+      "description": "Authorized workspace for executive strategy, security audits, and real-time coordination.",
+      "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=PrivateConnectCore",
+      "createdBy": "u_admin_001",
+      "createdAt": "2026-11-05T16:15:10.948Z",
+      "updatedAt": "2026-11-05T17:15:10.948Z",
+      "memberIds": [
+        "u_admin_001",
+        "u_sarah_002",
+        "u_marcus_003",
+        "u_elena_004"
+      ],
+      "memberRoles": {
+        "u_admin_001": "admin",
+        "u_sarah_002": "member",
+        "u_marcus_003": "member",
+        "u_elena_004": "member"
+      },
+      "mutedBy": [],
+      "archivedBy": [],
+      "lastRead": {
+        "u_admin_001": "2026-11-05T17:15:10.948Z",
+        "u_sarah_002": "2026-11-05T17:15:10.948Z",
+        "u_marcus_003": "2026-11-05T17:10:10.948Z",
+        "u_elena_004": "2026-11-05T16:55:10.948Z"
+      }
+    },
+    {
+      "id": "c_dm_sarah_marcus",
+      "isGroup": false,
+      "createdBy": "u_admin_001",
+      "createdAt": "2026-11-05T16:15:10.948Z",
+      "updatedAt": "2026-11-05T17:10:10.948Z",
+      "memberIds": [
+        "u_admin_001",
+        "u_sarah_002"
+      ],
+      "memberRoles": {
+        "u_admin_001": "admin",
+        "u_sarah_002": "member"
+      },
+      "mutedBy": [],
+      "archivedBy": [],
+      "lastRead": {
+        "u_admin_001": "2026-11-05T17:15:10.948Z",
+        "u_sarah_002": "2026-11-05T17:15:10.948Z"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "m_seed_1",
+      "conversationId": "c_general_grp",
+      "senderId": "u_admin_001",
+      "content": "Welcome to Private Connect! All conversations here are strictly private, encrypted, and isolated to authorized team members.",
+      "messageType": "text",
+      "isPinned": true,
+      "isEdited": false,
+      "isDeleted": false,
+      "createdAt": "2026-11-05T16:15:10.948Z",
+      "updatedAt": "2026-11-05T16:15:10.948Z",
+      "reactions": [
+        {
+          "id": "r_seed_1",
+          "messageId": "m_seed_1",
+          "userId": "u_sarah_002",
+          "reaction": "🔥",
+          "createdAt": "2026-11-05T16:15:10.948Z"
+        },
+        {
+          "id": "r_seed_2",
+          "messageId": "m_seed_1",
+          "userId": "u_marcus_003",
+          "reaction": "👍",
+          "createdAt": "2026-11-05T16:15:10.948Z"
+        }
+      ],
+      "reads": [
+        "u_admin_001",
+        "u_sarah_002",
+        "u_marcus_003",
+        "u_elena_004"
+      ]
+    },
+    {
+      "id": "m_seed_2",
+      "conversationId": "c_general_grp",
+      "senderId": "u_sarah_002",
+      "content": "The new Messenger-inspired interface is exceptionally fluid. Real-time typing indicators and WebRTC audio/video call integration are working smoothly.",
+      "messageType": "text",
+      "isPinned": false,
+      "isEdited": false,
+      "isDeleted": false,
+      "createdAt": "2026-11-05T16:55:10.948Z",
+      "updatedAt": "2026-11-05T16:55:10.948Z",
+      "reactions": [
+        {
+          "id": "r_seed_3",
+          "messageId": "m_seed_2",
+          "userId": "u_admin_001",
+          "reaction": "❤️",
+          "createdAt": "2026-11-05T16:55:10.948Z"
+        }
+      ],
+      "reads": [
+        "u_admin_001",
+        "u_sarah_002",
+        "u_marcus_003"
+      ]
+    },
+    {
+      "id": "m_seed_3",
+      "conversationId": "c_dm_sarah_marcus",
+      "senderId": "u_sarah_002",
+      "content": "Hey Arafat! Ready for our 1-on-1 audio call test when you have a moment.",
+      "messageType": "text",
+      "isPinned": false,
+      "isEdited": false,
+      "isDeleted": false,
+      "createdAt": "2026-11-05T17:10:10.948Z",
+      "updatedAt": "2026-11-05T17:10:10.948Z",
+      "reactions": [
+        {
+          "id": "r_seed_4",
+          "messageId": "m_seed_3",
+          "userId": "u_admin_001",
+          "reaction": "👍",
+          "createdAt": "2026-11-05T17:10:10.948Z"
+        }
+      ],
+      "reads": [
+        "u_admin_001",
+        "u_sarah_002"
+      ]
+    }
+  ],
+  "invitations": [
+    {
+      "id": "inv_vip_001",
+      "code": "CONNECT-VIP-2026",
+      "email": "guest.partner@privateconnect.internal",
+      "createdBy": "u_admin_001",
+      "role": "member",
+      "status": "pending",
+      "expiresAt": "2026-11-12T17:15:10.948Z",
+      "createdAt": "2026-11-05T16:15:10.948Z"
+    }
+  ],
+  "notifications": [],
+  "calls": []
+}
